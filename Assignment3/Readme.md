@@ -1,2 +1,2 @@
-<img src="IMG-2298.jpg">
+<img src="resumeportfolio.jpeg">
 
