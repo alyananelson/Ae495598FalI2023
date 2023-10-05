@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<script src='asyncReq.js'></script>
+<script>
+function updateData()
+{
+  loadURL("./getData", function(data){
+    document.getElementById("results").innerHTML = data;
+  })
+}
+function start()
+{
+  setInterval("updateData()", 300);
+}
+</script>
+</head>
+<body onload='start()'>
+<h1> Temperature/Humidity</h1>
+<div id='results'> </div>
+<p> Step 1 : Firstly launched a EC2 instance named it, then used Ubuntu.</p><br><br>
+<img src="./images /step1.jpg" style="height:auto;width:50%"> 
+<br><br> 
+<p> Step 2 : Configured then launched:</p><br><br>
+<img src="./images /step2.jpg" style="height:auto;width:50%"> 
+<br><br> 
+<p> Step 3 After Launched and then Connect the instance: : </p><br><br>
+<img src="./images /step3.jpg" style="height:auto;width:50%"> 
+<br><br> 
+<p> Step 4 : Edited inbound rules </p><br><br>
+<img src="./images /step4.jpg" style="height:auto;width:50%"> 
+<br><br> 
+<p> Step 5 : After inputting code on the server to find the files this is the output I got</p><br><br>
+<img src="./images /step5.jpg" style="height:auto;width:50%"> 
+<br><br> 
+<p> Step 6 : Then this</p><br><br>
+<img src="./images /step6.jpg" style="height:auto;width:50%"> 
+<br><br> 
+<p> Step 7 : Used Arduino</p><br><br>
+<img src="./images /step7.jpg" style="height:auto;width:50%"> 
+<br><br> 
+<p> Step 8 : Imputed my hotspot name and password, changed the server IP, added 1234 then changed DHT11 to 25 then ran the code I Got</p><br><br>
+<img src="./images /step8.jpg" style="height:auto;width:50%"> 
+<br><br> 
+<p> Step 9 : Input the IP on Chrome:</p><br><br>
+<img src="./images /step9.jpg" style="height:auto;width:50%"> 
+<br><br> 
+<p> Step 10 : more </p><br><br>
+<img src="./images /step10.jpg" style="height:auto;width:50%"> 
+<br><br> 
+</body>
+</html>
