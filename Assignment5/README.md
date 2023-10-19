@@ -1,3 +1,3 @@
-<img src="weather">
+<img src="weather.png">
 
 
